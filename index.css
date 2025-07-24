@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header-area{
+    font-size:2rem;
+    padding:3.5em 1em;
+    border: 1px solid red;
+    display:flex;
+    justify-content: space-between;
+    background-image: url("movie-watchlist-bg.jpg");
+    background-size: cover;
+    backface-visibility: 30%;
+    background-position-y: 30%;
+}
+
+.header-area h1{
+    border:1px solid red;
+    font-size:5rem;
+    /* padding:0.2em;
+    border:1px solid black;
+    background-color: black; */
+    color:white
+}
+
+.header-area a{
+    color:white;
+    text-decoration: none;
+    border:1px solid red;
+    line-height: 1;
+}
