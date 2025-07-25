@@ -11,8 +11,7 @@
     display:flex;
     justify-content: space-between;
     background-image: url("movie-watchlist-bg.jpg");
-    background-size: cover;
-    backface-visibility: 30%;
+    background-size: cover; 
     background-position-y: 30%;
 }
 
@@ -30,4 +29,5 @@
     text-decoration: none;
     border:1px solid red;
     line-height: 1;
+    align-content:center;
 }
